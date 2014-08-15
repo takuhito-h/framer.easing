@@ -7,7 +7,7 @@
 !(function(root){
     "use strict";
 
-    Framer.easing = {
+    var Easing = {
         easeInSine     : "bezier-curve(0.47, 0, 0.745, 0.715)",
         easeOutSine    : "bezier-curve(0.39, 0.575, 0.565, 1)",
         easeInOutSine  : "bezier-curve(0.39, 0.575, 0.565, 1)",
@@ -44,5 +44,7 @@
         
         easeSwiftOut   : "bezier-curve(0.55, 0, 0.1, 1)"
     };
+
+    _.extend(Framer, Easing);
 
 })(this);
