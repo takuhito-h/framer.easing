@@ -1,4 +1,11 @@
-(function(global){
+/**-----------------------------------------------------------------------------
+ *  Framer.easing.js
+ *
+ *  @url https://github.com/takuhito-h/framer.easing
+ *  @license MIT License
+ * ----------------------------------------------------------------------------*/
+!(function(root){
+    "use strict";
 
     Framer.easing = {
         easeInSine     : "bezier-curve(0.47, 0, 0.745, 0.715)",
